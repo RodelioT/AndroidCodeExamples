@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Code Examples</string>
+
+    <string name="thousandNumbers">Thousand Numbers</string>
+    <string name="conversions">Conversions</string>
+    <string name="mathFunctions">Math Functions</string>
 </resources>
