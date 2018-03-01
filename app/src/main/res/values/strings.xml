@@ -4,4 +4,5 @@
     <string name="thousandNumbers">Thousand Numbers</string>
     <string name="conversions">Conversions</string>
     <string name="mathFunctions">Math Functions</string>
+    <string name="generateNewNumbers">Generate New Numbers</string>
 </resources>
