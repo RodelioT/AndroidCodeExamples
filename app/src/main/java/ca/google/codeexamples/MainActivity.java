@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnThousandNumbers;
+    Button btnThousandNumbers, btnConversions;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,10 +17,12 @@ public class MainActivity extends AppCompatActivity {
 
         // Finding the Views
         btnThousandNumbers = findViewById(R.id.btnThousandNumbers);
+        btnConversions = findViewById(R.id.btnConversions);
 
         // Setting up Event Handlers
         EventHandler eventHandler = new EventHandler();
         btnThousandNumbers.setOnClickListener(eventHandler);
+        btnConversions.setOnClickListener(eventHandler);
 
 
     }
@@ -32,8 +34,12 @@ public class MainActivity extends AppCompatActivity {
             switch (view.getId()) {
                 case R.id.btnThousandNumbers:
                     // Starting a new Activity
-                    Intent intent = new Intent(MainActivity.this, ThousandNumbers.class);
-                    startActivity(intent);
+                    Intent thousandNumbersIntent = new Intent(MainActivity.this, ThousandNumbers.class);
+                    startActivity(thousandNumbersIntent);
+                    break;
+                case R.id.btnConversions:
+                    Intent conversionsIntent = new Intent(MainActivity.this, ConversionsActivity.class);
+                    startActivity(conversionsIntent);
                     break;
             }
         }

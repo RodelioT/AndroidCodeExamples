@@ -34,6 +34,7 @@ public class ThousandNumbers extends AppCompatActivity {
         btnFindNumbers = findViewById(R.id.btnFindNumbers);
         btnGenerateNewNumbers = findViewById(R.id.btnGenerateNewNumbers);
 
+        // Setting up Event Handlers
         EventHandler eventHandler = new EventHandler();
         btnFindNumbers.setOnClickListener(eventHandler);
         btnGenerateNewNumbers.setOnClickListener(eventHandler);

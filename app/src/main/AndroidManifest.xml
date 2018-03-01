@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ThousandNumbers" />
-        <activity android:name=".ThousandNumbers"></activity>
+        <activity android:name=".ThousandNumbers" />
+        <activity android:name=".ConversionsActivity"></activity>
     </application>
 
 </manifest>
