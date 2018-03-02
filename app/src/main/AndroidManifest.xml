@@ -18,7 +18,9 @@
         </activity>
         <activity android:name=".ThousandNumbers" />
         <activity android:name=".ThousandNumbers" />
-        <activity android:name=".ConversionsActivity"></activity>
+        <activity android:name=".ConversionsActivity" />
+        <activity android:name=".MathFunctionsActivity" />
+        <activity android:name=".SavingDataActivity"></activity>
     </application>
 
 </manifest>
