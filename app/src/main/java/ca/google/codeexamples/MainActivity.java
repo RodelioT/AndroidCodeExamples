@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnThousandNumbers, btnConversions, btnMathFunctions, btnSavingData;
+    private Button btnThousandNumbers, btnConversions, btnMathFunctions, btnSavingData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    
+
     // Activity is made
 
     // @Override

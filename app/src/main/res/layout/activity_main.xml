@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,27 +7,34 @@
     android:orientation="vertical"
     tools:context="ca.google.codeexamples.MainActivity">
 
-    <Button
-        android:id="@+id/btnThousandNumbers"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/thousandNumbers" />
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btnConversions"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/conversions" />
+        <Button
+            android:id="@+id/btnThousandNumbers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/thousandNumbers" />
 
-    <Button
-        android:id="@+id/btnMathFunctions"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mathFunctions" />
+        <Button
+            android:id="@+id/btnConversions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/conversions" />
 
-    <Button
-        android:id="@+id/btnSavingData"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Saving Data" />
-</LinearLayout>
+        <Button
+            android:id="@+id/btnMathFunctions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mathFunctions" />
+
+        <Button
+            android:id="@+id/btnSavingData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saving Data" />
+
+    </LinearLayout>
+</ScrollView>

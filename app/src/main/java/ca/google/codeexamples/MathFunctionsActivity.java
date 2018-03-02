@@ -9,8 +9,8 @@ import java.util.stream.IntStream;
 
 public class MathFunctionsActivity extends AppCompatActivity {
 
-    TextView tvArray, tvMean, tvMedium, tvMode, tvRange;
-    int[] intArray = {13, 18, 13, 14, 13, 16, 14, 21, 13};
+    private TextView tvArray, tvMean, tvMedium, tvMode, tvRange;
+    private int[] intArray = {13, 18, 13, 14, 13, 16, 14, 21, 13};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

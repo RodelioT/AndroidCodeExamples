@@ -20,7 +20,8 @@
         <activity android:name=".ThousandNumbers" />
         <activity android:name=".ConversionsActivity" />
         <activity android:name=".MathFunctionsActivity" />
-        <activity android:name=".SavingDataActivity"></activity>
+        <activity android:name=".SavingDataActivity" />
+        <activity android:name=".OtherSavingActivity"></activity>
     </application>
 
 </manifest>

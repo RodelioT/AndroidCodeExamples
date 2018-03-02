@@ -13,8 +13,8 @@ import java.util.Collections;
 
 public class ConversionsActivity extends AppCompatActivity {
 
-    EditText etKilograms, etPounds;
-    Button btnConvert;
+    private EditText etKilograms, etPounds;
+    private Button btnConvert;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

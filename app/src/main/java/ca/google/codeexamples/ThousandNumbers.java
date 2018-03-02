@@ -18,10 +18,10 @@ import java.util.Random;
 
 public class ThousandNumbers extends AppCompatActivity {
 
-    EditText etNumber;
-    TextView tvInstances;
-    Button btnFindNumbers, btnGenerateNewNumbers;
-    ArrayList<Integer> numberList;
+    private EditText etNumber;
+    private TextView tvInstances;
+    private Button btnFindNumbers, btnGenerateNewNumbers;
+    private ArrayList<Integer> numberList;
 
 
     @Override
